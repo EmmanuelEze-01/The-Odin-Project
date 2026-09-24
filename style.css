@@ -537,6 +537,11 @@ footer .bottom {
   /* header {
     margin-top: 50px;
   } */
+
+  .support div {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
 }
 
 @media (max-width: 400px) {
@@ -552,7 +557,7 @@ footer .bottom {
   }
 
   .support p {
-    background: #101828;
+    /* background: #101828; */
     padding: 0 20px;
     margin-right: 20px;
     margin-left: 20px;
@@ -560,7 +565,7 @@ footer .bottom {
 
   .how-section p {
     padding: 0 20px;
-    background-color: #101828;
+    /* background-color: #101828; */
     margin-right: 20px;
     margin-left: 20px;
   }
